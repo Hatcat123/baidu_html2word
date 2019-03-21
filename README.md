@@ -1,0 +1,2 @@
+# baidu_html2word
+一个基于python爬取百度文档js源码信息解析的html转换word的工具
