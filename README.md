@@ -13,6 +13,13 @@
 相对于图片识别转换，所有的字段不会丢失，文字的大小、位置、图片等都完全
 依照百度开放接口内容返回。
 
+* 百度文档
+![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190321212855.png)
+
+* 转换后word文档
+![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190321212606.png)
+
+
 使用说明：
 将软件和default.docx文件放到与
 要转换的html文件夹同一目录，软件便能找到此文件下的所有要转换的html文件
