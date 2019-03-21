@@ -1,0 +1,48 @@
+<div id="reader"></div>
+<script src="http://static.bcedocument.com/reader/v2/doc_reader_v2_console.js?v=20161101"></script>
+<script>
+(function () {
+    function getQuery() {
+        var queryString = location.search.substr(1);
+        var queryArr = queryString.split('&');
+        var query = {};
+        for (var i = 0; i < queryArr.length; i++) {
+            var key = queryArr[i].split('=')[0];
+            var value = queryArr[i].split('=')[1];
+            query[key] = value;
+        }
+        return query;
+    }
+    function init() {
+        var query = getQuery();
+        var option = {
+             docId:   'doc-hfesztrr6pw9wcq',
+             token: 'TOKEN',
+              host: 'BCEDOC',
+            width: 700,  
+            pn: 1,   
+            fontSize:'big',
+			zoom:false,
+			zoomStepWidth:200,
+			ready: function (handler) {  // 设置字体大小和颜色, 背景颜色（可设置白天黑夜模式）
+            handler.setFontSize(1);
+            handler.setBackgroundColor('#000');
+            handler.setFontColor('#fff');
+			},
+			flip: function (data) {    // 翻页时回调函数, 可供客户进行统计等
+            console.log(data.pn);
+        },
+            toolbarConf: {
+                page: true,  
+                pagenum: true,  
+                full: false, 
+                copy: true, 
+                position: 'center',  
+            }
+            //enviroment: 'online'
+        };
+        new Document('reader', option);
+    }
+    init();
+})();
+</script>
