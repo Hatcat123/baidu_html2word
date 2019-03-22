@@ -13,6 +13,9 @@
 相对于图片识别转换，所有的字段不会丢失，文字的大小、位置、图片等都完全
 依照百度开放接口内容返回。
 
+![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190322174000.gif)
+
+
 * 百度文档
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190321212855.png)
 
@@ -37,3 +40,9 @@
 - 修改因文件夹自身命名不规范导致的程序闪退
 - 修改因网站自身失去资源而导致程序崩溃的bug
 - 增加兼容win7x86
+
+
+
+如有其它改进方式请issue
+
+致谢：Zd提出的想法
