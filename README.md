@@ -17,9 +17,11 @@
 
 
 * 百度文档
+
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190321212855.png)
 
 * 转换后word文档
+
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190321212606.png)
 
 
@@ -43,6 +45,6 @@
 
 
 
-如有其它改进方式请issue
+如有其它改进方式请issues
 
 致谢：Zd提出的想法
