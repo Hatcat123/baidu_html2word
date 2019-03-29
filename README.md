@@ -17,9 +17,11 @@
 
 
 * 百度文档
+
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190321212855.png)
 
 * 转换后word文档
+
 ![](https://raw.githubusercontent.com/Hatcat123/GraphicBed/master/Img/20190321212606.png)
 
 
@@ -43,6 +45,7 @@
 
 
 
+<<<<<<< HEAD
 1.修复window下：`UnicodeEncodeError: 'gbk' codec can't encode character '\u2022' in position` 
 
 ```
@@ -50,5 +53,8 @@ content.encode("gbk", 'ignore').decode("gbk", "ignore")
 ```
 
 如有其它改进方式请issue
+=======
+如有其它改进方式请issues
+>>>>>>> 7be0747bbd7d2317e9ee8089174bb3e16e73f8c2
 
 致谢：Zd提出的想法
