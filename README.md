@@ -43,6 +43,12 @@
 
 
 
+1.修复window下：`UnicodeEncodeError: 'gbk' codec can't encode character '\u2022' in position` 
+
+```
+content.encode("gbk", 'ignore').decode("gbk", "ignore")
+```
+
 如有其它改进方式请issue
 
 致谢：Zd提出的想法
